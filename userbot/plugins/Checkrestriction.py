@@ -9,7 +9,7 @@ async def _(event):
     if event.fwd_from:
         return 
     if not event.reply_to_msg_id:
-       await event.edit("```🔥Reply to a username or username link🔥.```")
+       await event.edit("```😍Reply to a username or username link😍.```")
        return
     reply_message = await event.get_reply_message() 
     if not reply_message.text:
